@@ -1,0 +1,136 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #282c34;
+    color: #61dafb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #20232a;
+}
+
+.logo, .heart {
+    width: 50px;
+    height: 50px;
+    background-color: #61dafb;
+}
+
+.input-section {
+    padding: 20px;
+}
+
+.content-input {
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrap-text textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #20232a;
+    color: #61dafb;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+}
+
+.button-wrap {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.wrap-span {
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.button .btn8bitE, .button .btn8bitD {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.wrapper-buttonE, .wrapper-buttonD {
+    background-color: #282c34;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    color: #61dafb;
+    background-color: #20232a;
+    border: 2px solid #61dafb;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #61dafb;
+    color: #20232a;
+}
+
+.view-text {
+    padding: 20px;
+}
+
+.section_8bit {
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+.alert-wrap, .alert-copy, .alert-text {
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #ff6f61;
+}
+
+.alert-icon, .alert-icon-copy {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #20232a;
+    color: #61dafb;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #61dafb;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+}
+
+.btn-Borrar {
+    background-color: #ff6f61;
+    color: #20232a;
+    border: none;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
